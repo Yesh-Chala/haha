@@ -12,7 +12,7 @@ const server = http.createServer( async(req, res) => {
     res.end('Hello, World! This is the /api route lala.\n');
     await run();
     results = await retrieve();
-    res.end(results);
+    // res.end(results);
   } else {
     res.writeHead(404, {'Content-Type': 'text/plain'});
     res.end('404 Not Found\n');
