@@ -2,10 +2,11 @@
   "name": "netlify-express-1",
   "version": "1.0.0",
   "description": "",
-  "main": "functions/api.js",
+  "main": "functions/api2.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node functions/api.js"
+    "dev": "node functions/api2.js",
+    "start": "node functions/api2.js"
   },
   "author": "",
   "license": "ISC",
